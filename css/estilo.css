@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+body {
+    background: rgb(22, 22, 22);
+    color: white;
+}
+
 .cab {
     display: flex;
     align-items: center;
@@ -19,6 +24,15 @@
     align-content: center;
 }
 
+label {
+    padding: 10px;
+}
+
+i {
+    padding: 5px;
+    margin: 10px;
+}
+
 .port1 img {
     width: 40px;
     border-radius: 50%;
@@ -28,5 +42,135 @@
     display: flex;
     align-items: center;
     align-content: center;
-    margin-right: 65%;
+    margin-right: 60%;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.coluna i {
+    margin: 10px;
+}
+
+.esquerdo {
+    width: 50%;
+    margin-left: 7%;
+    margin-top: -13%;
+}
+
+.projeto {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.projeto h3 {
+    margin-right: 84%;
+}
+
+.projeto p {
+    margin-right: -1px;
+}
+
+.pro {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.num {
+    margin-right: 20px;
+}
+
+.pro1 {
+    margin-left: 60%;
+}
+
+.s {
+    width: 30%;
+}
+
+.quadro1 {
+    background: rgb(87, 64, 38);
+}
+
+.dezembro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dezembro p {
+    margin-right: 37%;
+}
+
+.web {
+    text-align: center;
+}
+
+.progresso {
+    display: flex;
+    height: 0.3rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 0px 20px 0px 20px;
+}
+
+.progress {
+    padding: 0px 15px 5px
+}
+
+.progresso h3{
+    background: rgb(207, 118, 2);
+    width: 60%;
+}
+
+.porcentagem {
+    margin-left: 83%;
+}
+
+.iprogress {
+    display: flex;
+    align-items: center;
+}
+
+.iprogress img {
+    width: 30px;
+    border-radius: 50%;
+    margin: 0px -30px;
+    margin-left: 10px;
+}
+
+.iprogress i {
+    margin-left: 37px;
+    background: black;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.iprogress p {
+    margin-left: 35%;
+    background: black;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.quadro {
+    display: flex;
+}
+
+.quadro2 {
+    background: rgb(95, 35, 35);
+}
+
+.quadro2 .progresso h3 {
+    background: rgb(230, 36, 69);
+    width: 20%;
 }
