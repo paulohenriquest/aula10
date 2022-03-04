@@ -55,6 +55,10 @@ i {
     margin: 10px;
 }
 
+.geral {
+    display: flex;
+}
+
 .esquerdo {
     width: 50%;
     margin-left: 7%;
@@ -96,10 +100,6 @@ i {
     width: 30%;
 }
 
-.quadro1 {
-    background: rgb(87, 64, 38);
-}
-
 .dezembro {
     display: flex;
     align-items: center;
@@ -107,11 +107,17 @@ i {
 }
 
 .dezembro p {
-    margin-right: 37%;
+    margin-right: 100%;
+    display: contents;
+}
+
+.dezembro i {
+    margin-left: 125px
 }
 
 .web {
     text-align: center;
+    width: 270px;
 }
 
 .progresso {
@@ -121,24 +127,23 @@ i {
     background-color: #e9ecef;
     border-radius: 0.25rem;
     margin: 0px 20px 0px 20px;
+    width: 270px;
 }
 
 .progress {
-    padding: 0px 15px 5px
+    padding: 0px 15px 5px;
+    width: 260px;
 }
 
-.progresso h3{
-    background: rgb(207, 118, 2);
-    width: 60%;
-}
 
 .porcentagem {
-    margin-left: 83%;
+    margin-left: 75%;
 }
 
 .iprogress {
     display: flex;
     align-items: center;
+    width: 270px;
 }
 
 .iprogress img {
@@ -163,14 +168,120 @@ i {
 }
 
 .quadro {
+    height: 60vh;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.s {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    margin: 10px;
+    width: 30vh;
+}
+
+.quadro1 {
+    background: rgb(48, 13, 13);
+}
+
+.quadro1 .progresso h3 {
+    background: rgb(224, 140, 15);
+    width: 50%;
 }
 
 .quadro2 {
-    background: rgb(95, 35, 35);
+    background: rgb(44, 21, 71);
 }
 
 .quadro2 .progresso h3 {
-    background: rgb(230, 36, 69);
+    background: rgb(77, 12, 180);
+    width: 50%;
+}
+
+.quadro3 {
+    background: rgb(26, 21, 36);
+}
+
+.quadro3 .progresso h3 {
+    background: rgb(36, 68, 138);
+    width: 80%;
+}
+
+.quadro4 {
+    background: rgb(107, 37, 53);
+}
+
+.quadro4 .progresso h3 {
+    background: rgb(212, 35, 50);
     width: 20%;
 }
+
+.quadro5 {
+    background: rgb(4, 27, 4);
+}
+
+.quadro5 .progresso h3 {
+    background: rgb(31, 202, 74);
+    width: 60%;
+}
+
+.quadro6 {
+    background: rgb(31, 20, 71);
+}
+
+.quadro6 .progresso h3 {
+    background: rgb(17, 30, 212);
+    width: 60%;
+}
+
+.direito {
+    margin-left: 90px;
+    margin-top: -280px
+}
+
+.usuario {
+    margin: 30px;
+}
+
+.pessoas {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.pessoas img {
+    width: 30px;
+    border-radius: 50%;
+    margin: 0px -30px;
+    margin-left: 10px;
+}
+
+.client h3 {
+    margin: 25px;
+}
+
+.clientes {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.gerald h4 {
+    margin-left: 50px;
+}
+
+.gerald p {
+    margin-left: 60px;
+}
+
+
+
+
+
