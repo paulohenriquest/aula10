@@ -242,8 +242,8 @@ i {
 }
 
 .direito {
-    margin-left: 90px;
-    margin-top: -280px
+    /* margin-left: -20px; */
+    margin-top: -280px;
 }
 
 .usuario {
@@ -263,6 +263,10 @@ i {
     margin-left: 10px;
 }
 
+.dec {
+    text-align: end;
+}
+
 .client h3 {
     margin: 25px;
 }
@@ -275,10 +279,119 @@ i {
 
 .gerald h4 {
     margin-left: 50px;
+    width: 100%;
 }
 
 .gerald p {
     margin-left: 60px;
+}
+
+@media (max-width: 1280px) {
+    
+    .geral {
+        display: block;
+    }
+    .pesquisa {
+        margin-right: 25%;
+    }
+
+    .coluna {
+        margin: auto;
+    }
+
+    .esquerdo {
+        width: auto;
+    }
+
+    .direito {
+        margin-top: auto;
+    }
+
+    .projeto h3 {
+        margin-right: 70%;
+    }
+
+    .pro1 {
+        margin-left: 40%;
+    }
+
+    .quadro {
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 798px) {
+    .coluna {
+        margin: auto;
+    }
+
+    ul {
+        font-size: 9px;
+    }
+
+    .port1 i {
+        margin: auto;
+    }
+
+    .port1 img {
+        width: 30px;
+    }
+
+    .pesquisa {
+        margin-right: 0px
+    }
+
+    input {
+        width: 80px;
+    }
+
+    .geral {
+        font-size: 9px;
+        display: block;
+    }
+
+    .esquerdo {
+        width: 50%;
+        margin-top: -145px;
+        margin-left: 90px;
+    }
+
+    .direito {
+        margin-top: auto;
+    }
+
+    .projeto {
+        width: auto;
+        margin: auto;
+    }
+
+    .pro1 {
+        display: flex;
+        margin: 7px;
+    }
+
+    .pro1 i {
+        margin: auto;
+    }
+
+    .num {
+        margin-right: auto;
+    }
+
+    .num p {
+        width: 50px;
+        margin: auto;
+    }
+
+    .quadro {
+        height: auto;
+    }
+
+    .s {
+        width: 40vh;
+    }
 }
 
 
