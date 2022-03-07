@@ -45,6 +45,12 @@ i {
     margin-right: 60%;
 }
 
+input {
+    background: rgb(22, 22, 22);
+    border: solid 1px rgb(80, 79, 79);
+    padding: 3px;
+}
+
 .coluna {
     display: flex;
     flex-direction: column;
@@ -184,7 +190,6 @@ i {
     align-content: center;
     color: white;
     margin: 10px;
-    width: 30vh;
 }
 
 .quadro1 {
@@ -293,6 +298,10 @@ i {
     }
     .pesquisa {
         margin-right: 25%;
+    }
+
+    input {
+        font-size: 8px;
     }
 
     .coluna {
