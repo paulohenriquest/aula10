@@ -149,7 +149,7 @@ input {
 .iprogress {
     display: flex;
     align-items: center;
-    width: 270px;
+    width: 215px;
 }
 
 .iprogress img {
@@ -167,10 +167,12 @@ input {
 }
 
 .iprogress p {
-    margin-left: 35%;
+    margin-left: 25%;
     background: black;
     border-radius: 20px;
     padding: 7px;
+    width: 180px;
+    text-align: center;
 }
 
 .quadro {
