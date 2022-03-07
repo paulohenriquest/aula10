@@ -297,6 +297,7 @@ input {
     
     .geral {
         display: block;
+        font-size: 13px;
     }
     .pesquisa {
         margin-right: 25%;
