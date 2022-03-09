@@ -110,11 +110,11 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .dezembro p {
-    margin-right: 100%;
-    display: contents;
+    margin-right: 65%;
 }
 
 .dezembro i {
@@ -123,7 +123,7 @@ input {
 
 .web {
     text-align: center;
-    width: 270px;
+    margin-bottom: 60px;
 }
 
 .progresso {
@@ -132,24 +132,27 @@ input {
     overflow: hidden;
     background-color: #e9ecef;
     border-radius: 0.25rem;
-    margin: 0px 20px 0px 20px;
-    width: 270px;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .progress {
     padding: 0px 15px 5px;
     width: 260px;
+    text-align: center;
 }
 
 
 .porcentagem {
     margin-left: 75%;
+    padding: 10px;
 }
 
 .iprogress {
     display: flex;
     align-items: center;
-    width: 215px;
+    align-content: center;
+    justify-content: center;
 }
 
 .iprogress img {
@@ -176,13 +179,23 @@ input {
 }
 
 .quadro {
-    height: 60vh;
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
+    margin-top: 20px;
+    border-radius: 20px;
 }
+
+a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
 
 .s {
     display: flex;
@@ -194,59 +207,16 @@ input {
     margin: 10px;
 }
 
-.quadro1 {
-    background: rgb(48, 13, 13);
-}
 
-.quadro1 .progresso h3 {
-    background: rgb(224, 140, 15);
-    width: 50%;
-}
-
-.quadro2 {
-    background: rgb(44, 21, 71);
-}
-
-.quadro2 .progresso h3 {
-    background: rgb(77, 12, 180);
-    width: 50%;
-}
-
-.quadro3 {
-    background: rgb(26, 21, 36);
-}
-
-.quadro3 .progresso h3 {
-    background: rgb(36, 68, 138);
-    width: 80%;
-}
-
-.quadro4 {
+.quadro {
     background: rgb(107, 37, 53);
 }
 
-.quadro4 .progresso h3 {
+.quadro .progresso h3 {
     background: rgb(212, 35, 50);
-    width: 20%;
+    width: 50%;
 }
 
-.quadro5 {
-    background: rgb(4, 27, 4);
-}
-
-.quadro5 .progresso h3 {
-    background: rgb(31, 202, 74);
-    width: 60%;
-}
-
-.quadro6 {
-    background: rgb(31, 20, 71);
-}
-
-.quadro6 .progresso h3 {
-    background: rgb(17, 30, 212);
-    width: 60%;
-}
 
 .direito {
     /* margin-left: -20px; */
@@ -293,31 +263,6 @@ input {
     margin-left: 60px;
 }
 
-a {
-    color: white;
-}
-
-a .web {
-    width: auto;
-}
-
-a .progress {
-    margin: auto;
-}
-
-a .progresso {
-    width: auto;
-}
-
-a .iprogress {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin: auto;
-    width: 90%;
-}
-
 @media (max-width: 1280px) {
     
     .geral {
@@ -355,8 +300,6 @@ a .iprogress {
     .quadro {
         height: auto;
     }
-
-
 
 
 }
@@ -432,13 +375,3 @@ a .iprogress {
         width: 40vh;
     }
 }
-
-
-
-
-
-
-
-
-
-
