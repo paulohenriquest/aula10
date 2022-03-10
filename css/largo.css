@@ -24,10 +24,6 @@ body.active {
     align-content: center;
 }
 
-.dark {
-    cursor: pointer;
-}
-
 label {
     padding: 10px;
 }
@@ -96,6 +92,7 @@ input {
     align-content: center;
     justify-content: center;
     margin-top: 15px;
+    font-size: 15px;
 }
 
 .num {
@@ -106,9 +103,7 @@ input {
     margin-left: 60%;
 }
 
-.s {
-    width: 30%;
-}
+
 
 .dezembro {
     display: flex;
@@ -181,8 +176,6 @@ input {
 
 .quadro {
     height: 60vh;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -299,7 +292,6 @@ input {
 
 a {
     color: white;
-    text-decoration: none;
 }
 
 a .web {
@@ -322,8 +314,6 @@ a .iprogress {
     margin: auto;
     width: 90%;
 }
-
-
 
 .usuarios :hover {
     background: blue;
@@ -443,13 +433,3 @@ a .iprogress {
         width: 40vh;
     }
 }
-
-
-
-
-
-
-
-
-
-

@@ -24,10 +24,6 @@ body.active {
     align-content: center;
 }
 
-.dark {
-    cursor: pointer;
-}
-
 label {
     padding: 10px;
 }
@@ -40,6 +36,10 @@ i {
 .port1 img {
     width: 40px;
     border-radius: 50%;
+}
+
+.dark {
+    cursor: pointer;
 }
 
 .pesquisa {
@@ -443,13 +443,3 @@ a .iprogress {
         width: 40vh;
     }
 }
-
-
-
-
-
-
-
-
-
-
