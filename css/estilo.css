@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-body.active {
+body {
     background: rgb(22, 22, 22);
     color: white;
 }
@@ -440,7 +440,7 @@ a .iprogress {
     }
 
     .s {
-        width: 40vh;
+        width: 47vh;
     }
 }
 

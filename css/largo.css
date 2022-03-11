@@ -5,9 +5,14 @@
     margin: 0;
 }
 
-body.active {
+body {
     background: rgb(22, 22, 22);
     color: white;
+}
+
+.active {
+    background: white;
+    color: black;
 }
 
 .cab {
@@ -117,7 +122,7 @@ input {
 }
 
 .dezembro i {
-    margin-left: 125px
+    margin-left: 80%;
 }
 
 .web {
@@ -138,6 +143,7 @@ input {
 .progress {
     padding: 0px 15px 5px;
     width: 260px;
+    margin: 8px;
 }
 
 
@@ -166,7 +172,7 @@ input {
 }
 
 .iprogress p {
-    margin-left: 25%;
+    margin-left: 75%;
     background: black;
     border-radius: 20px;
     padding: 7px;
@@ -182,13 +188,14 @@ input {
 }
 
 .s {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     align-content: center;
     color: white;
     margin: 10px;
+    border-radius: 20px;
 }
 
 .quadro1 {
@@ -298,9 +305,6 @@ a .web {
     width: auto;
 }
 
-a .progress {
-    margin: auto;
-}
 
 a .progresso {
     width: auto;

@@ -5,9 +5,14 @@
     margin: 0;
 }
 
-body.active {
+body {
     background: rgb(22, 22, 22);
     color: white;
+}
+
+.active {
+    color: black;
+    background: white;
 }
 
 .cab {
@@ -367,6 +372,10 @@ a .iprogress {
         height: auto;
     }
 
+    .s {
+        width: 40%;
+    }
+
 
 
 
@@ -440,6 +449,6 @@ a .iprogress {
     }
 
     .s {
-        width: 40vh;
+        width: 47vh;
     }
 }
