@@ -337,6 +337,30 @@ a .iprogress {
     border-radius: 20px;
 }
 
+.not {
+    background: white;
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    right: 190px;
+    margin-top: 125px;
+    color: black;
+    display: none;
+}
+
+.pesquisar, .pesquisa p {
+    margin-top: 60px;
+    right: 370px;
+    position: absolute;
+    display: none;
+}
+
+.ocutar {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
 @media (max-width: 1280px) {
     
     .geral {

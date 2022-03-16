@@ -44,3 +44,25 @@ selecionar_quadrado.addEventListener('click', function(){
         testedois[i].classList.add('s')
     }
 })
+
+let selecionar_notificacao = document.querySelector('.sinos')
+let notificacao = document.querySelector('.not')
+let fechar = document.querySelector('.fechar')
+selecionar_notificacao.addEventListener('click', function(){
+    notificacao.style.display = 'block'
+})
+
+fechar.addEventListener('click', function(){
+    notificacao.style.display = 'none'
+})
+
+let selecionar_cruz = document.querySelector('.cruz')
+let pesquisa = document.querySelector('.pesquisar')
+let ocutar = document.querySelector('.ocutar')
+selecionar_cruz.addEventListener('click', function(){
+    pesquisa.style.display = 'block'
+})
+
+ocutar.addEventListener('click',function(){
+    pesquisa.style.display = 'none'
+})
