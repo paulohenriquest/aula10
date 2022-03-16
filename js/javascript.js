@@ -21,3 +21,26 @@ if(ativo == 0){
     })
     ativo = 0
 }
+
+
+
+let teste = document.querySelectorAll('.s')
+let selecionar_quadrado = document.querySelector('.quadrad')
+let selecionar_lista = document.querySelector('.largos')
+console.log(teste)
+selecionar_lista.addEventListener('click', function(){
+    console.log(teste.length)
+    for(i=0; i < teste.length;i++){
+        teste[i].classList.remove('s')
+        teste[i].classList.add('j')
+    }
+})
+
+selecionar_quadrado.addEventListener('click', function(){
+    let testedois = document.querySelectorAll('.j')
+    console.log(testedois.length)
+    for(i=0; i < testedois.length;i++){
+        testedois[i].classList.remove('j')
+        testedois[i].classList.add('s')
+    }
+})

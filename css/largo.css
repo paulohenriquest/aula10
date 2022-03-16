@@ -108,7 +108,9 @@ input {
     margin-left: 60%;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 .dezembro {
     display: flex;
@@ -187,7 +189,7 @@ input {
     justify-content: center;
 }
 
-.s {
+.j {
     /* display: flex; */
     flex-wrap: wrap;
     align-items: center;

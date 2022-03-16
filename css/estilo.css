@@ -104,11 +104,9 @@ input {
 
 .pro1 {
     margin-left: 60%;
+    display: flex;
 }
 
-.s {
-    width: 30%;
-}
 
 .dezembro {
     display: flex;
@@ -189,6 +187,8 @@ input {
 }
 
 .s {
+    width: 30%;
+    border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -323,10 +323,18 @@ a .iprogress {
     width: 90%;
 }
 
-
-
 .usuarios :hover {
     background: blue;
+}
+
+.j {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    margin: 10px;
+    border-radius: 20px;
 }
 
 @media (max-width: 1280px) {
@@ -440,7 +448,7 @@ a .iprogress {
     }
 
     .s {
-        width: 47vh;
+        width: 40vh;
     }
 }
 
