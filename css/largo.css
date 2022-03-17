@@ -200,6 +200,16 @@ a {
     border-radius: 20px;
 }
 
+.s {
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    margin: 10px;
+}
+
 .quadro1 {
     background: rgb(48, 13, 13);
 }
