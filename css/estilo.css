@@ -349,16 +349,15 @@ a .iprogress {
 }
 
 .pesquisar, .pesquisa p {
-    margin-top: 60px;
-    right: 370px;
+    right: 70%;
     position: absolute;
     display: none;
 }
 
 .ocutar {
     position: absolute;
-    margin-top: 30px;
-    margin-left: 15px;
+    margin-left: -2px;
+    left: 121vh;
 }
 
 @media (max-width: 1280px) {
