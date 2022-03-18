@@ -263,6 +263,10 @@ a {
     margin-left: 60px;
 }
 
+.chart {
+    border: 3px solid royalblue;
+  }
+
 @media (max-width: 1280px) {
     
     .geral {
